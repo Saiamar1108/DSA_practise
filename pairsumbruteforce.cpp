@@ -9,6 +9,7 @@ vector<int> pairsum(vector<int> nums,int target){
         ans.push_back(nums[i]);
         ans.push_back(nums[j]);
         return ans;
+
       }
     }
   }return ans;
@@ -22,11 +23,12 @@ vector<int> pairsumtwopointer(vector<int> nums,int target){
     j--;
   }
   else if(nums[i]+nums[j]<target){
-    i++;
+    i=i+1;
   }
   else{
     ans.push_back(nums[i]);
     ans.push_back(nums[j]);
+    
     return ans;
 
   }
