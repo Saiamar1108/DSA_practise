@@ -34,7 +34,7 @@ vector<int> pairsumtwopointer(vector<int> nums,int target){
   }
 
   }
- 
+  
   return ans;
 }
 int main(){

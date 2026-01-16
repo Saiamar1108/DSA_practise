@@ -14,6 +14,8 @@ int main() {
     binary+=rem*powerr;
     a=a/2;
     powerr*=10;
+    powere*=10;
+    
     
   }
   cout<<binary;

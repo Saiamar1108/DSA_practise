@@ -4,4 +4,7 @@ using namespace std;
 int main(){
   vector<int>v={1,2,3,4,5};
   cout<<v[0];
+  v.pushback(10);
+  v.emplace_back(3);
+  
 }
